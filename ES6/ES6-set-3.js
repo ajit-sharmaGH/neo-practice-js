@@ -72,4 +72,23 @@ const product1 = {
     },
     price: 82900
 }
+
 console.log(printProductDetails(product));
+
+
+const persons = [
+    person = {
+        name: "ajit",
+        age: 21,
+        salary: 20000
+    }
+
+]
+console.log(persons.map(item => item.salary));
+let sal = persons.map(item => item.salary);
+console.log(sal);
+
+console.log(persons.filter(sal => sal))
+let sall = persons.filter(sal => sal);
+console.log(sall);
+console.log(persons.filter(item => item.salary < 30000))
