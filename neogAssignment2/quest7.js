@@ -8,6 +8,7 @@ const getQAEmployees = (teams) => {
 };
 
 const teams = {
+
     team1: [{
             name: "Alice",
             salary: 50000,
